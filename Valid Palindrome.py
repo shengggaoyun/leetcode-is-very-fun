@@ -1,7 +1,8 @@
 class Solution:
     """
     Intuition:
-        Use 2 pointer approach to iterate through string.
+        Use 2 pointer approach to iterate through string, one starting from the left
+        and another from the right.
     """
     def isPalindrome(self, s: str) -> bool:
         s = s.lower()
@@ -24,7 +25,7 @@ class Solution:
 
 class Solution2:
     """
-    Use built-in functions
+    Use Python built-in functions
     """
 
     def isPalindrome(self, s: str) -> bool:
