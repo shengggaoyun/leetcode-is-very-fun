@@ -3,6 +3,10 @@ class Solution:
     Intuition:
         Use 2 pointer approach to iterate through string, one starting from the left
         and another from the right.
+        
+    Runtime: O(n)
+
+    Memory: O(1)
     """
     def isPalindrome(self, s: str) -> bool:
         s = s.lower()
