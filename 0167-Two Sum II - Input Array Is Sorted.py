@@ -1,7 +1,12 @@
 class Solution:
     """
     Intuition:
-        Use 2 pointer approach to iterate through array.
+        Use 2 pointer approach to iterate through array, one starting from the left
+        and another from the right.
+    
+    Runtime: O(n)
+
+    Memory: O(1)
     """
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         n = len(numbers)
